@@ -1,0 +1,44 @@
+/*imported fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+/*global styles*/
+body {
+    font-size: 16px;
+    background-color: lightsteelblue;
+}
+
+/*clock styling*/
+#clock-container {
+    display: flex;
+    flex-direction:column;
+    padding: 1rem;
+    text-align: center;
+    min-width: 25rem;
+    width: 50%;
+    margin: 2rem auto;
+    background-color: slategray;
+    font-family: 'Orbitron', sans-serif;
+    color: seashell;
+    border: 1.5rem solid;
+    border-radius: 3rem;
+}
+
+#clock-contents {
+    font-size: 3rem;
+    margin: 0.5rem 0.5rem 2rem 0.5rem;
+}
+
+#twelve-hour-button {
+    align-self: flex-end;
+    font-family: 'Orbitron', sans-serif;
+    padding: 0.25rem;
+    background-color: seashell;
+    color: steelblue;
+}
+
+@media only screen and (min-width: 800px) {
+    #clock-contents {
+        font-size: 4rem;
+    }
+    
+}
